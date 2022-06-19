@@ -1,0 +1,86 @@
+#day_progress {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 8px;
+  margin-top: 80px;
+  margin-bottom: 15px;
+  padding: 20px 20px;
+  row-gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#day_progress .circle_progress {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: conic-gradient(#007acc 18deg, #ededed 0deg);
+}
+
+#day_progress .circle_progress::before {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  height: 210px;
+  width: 210px;
+  background-color: #ffffff;
+}
+
+#day_progress .progress_value {
+  position: relative;
+  font-size: 47px;
+  font-weight: 600;
+  color: #007acc;
+}
+
+#day_progress .text {
+  font-size: 20px;
+  font-weight: 600;
+  color: #007acc;
+}
+#todo_progress {
+  background-color: green;
+  border-radius: 8px;
+
+  padding: 50px 0;
+  row-gap: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#todo_progress .circle_progress {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: conic-gradient(#007acc 18deg, #ededed 0deg);
+}
+
+#todo_progress .circle_progress::before {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  height: 210px;
+  width: 210px;
+  background-color: #ffffff;
+}
+
+.progress_value {
+  position: relative;
+  font-size: 47px;
+  font-weight: 600;
+  color: #007acc;
+}
+
+#todo_progress .text {
+  font-size: 20px;
+  font-weight: 600;
+  color: #007acc;
+}

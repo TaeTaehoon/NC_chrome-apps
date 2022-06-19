@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="progress.css" />
+    <title>Taehmentum</title>
+  </head>
+  <body>
+    <header>geolacation</header>
+    <div id="main_container">
+      <div id="login_form">
+        <h1>What's your name?</h1>
+        <form id="'login_input">
+          <input type="text" name="loginName" id="login_name" required />
+        </form>
+      </div>
+
+      <div id="main_content" class="hidden">
+        <div id="day_progress">
+          <div class="circle_progress">
+            <span class="progress_value">00:00:00</span>
+          </div>
+          <span class="text">Good morning, user</span>
+        </div>
+        <div id="main_form">
+          <h1>What is your focus for today?</h1>
+          <form id="main_input">
+            <input type="text" name="mainTodo" id="main_todo" required />
+          </form>
+        </div>
+        <ul id="todo_list"></ul>
+      </div>
+      <!-- <div id="todo_progress" class="">
+        <div class="circle_progress">
+          <span class="progress_value">0%</span>
+        </div>
+        <span class="text">Html & CSS</span>
+      </div> -->
+    </div>
+    <footer>quotos&listBtn</footer>
+    <script src="app.js"></script>
+    <script src="loginForm.js"></script>
+    <script src="clock.js"></script>
+    <script src="todos.js"></script>
+  </body>
+</html>
